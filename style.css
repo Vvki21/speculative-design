@@ -1,0 +1,175 @@
+@font-face{
+	font-family: Bear;
+	src: url("fonts/Gummy_Bears.otf");
+}
+
+@font-face{
+	font-family: Roboto;
+	src: url("../fonts/RobotoMono-Medium.ttf");
+    font-size:24px
+}
+
+#logo{
+	border: solid 0px red;
+    flex-grow: 1;
+    font-family: bear;
+    font-size: 45pt;
+    text-align: center;
+    padding-top: 0px;
+	color:#C1B4FF;
+}
+.navbar-brand, .nav-item{
+  font-family: bear;
+  color:#C1B4FF;
+}
+
+html, body {
+  margin: 0;
+  padding: 0;
+  height: 100vh;
+  width: 100vw;
+  background: url("../bgcolor/screenbg.png") no-repeat center center fixed;
+-webkit-background-size: cover;
+  	-moz-background-size: cover;
+  	-o-background-size: cover;
+  	background-size: cover;
+
+
+
+}
+#button1 {
+  position: absolute;
+  top: 20vh;
+  left: 30vw;
+  background-color: #FADACD;
+}
+
+#button2 {
+  position: absolute;
+  top: 60vh;
+  left: 30vw;
+  background-color:#E2E9F4;
+}
+
+#button3 {
+  position: absolute;
+  top: 25vh;
+  left: 29.5vw;
+  background-color: #FADACD;
+}
+
+#button4 {
+  position: absolute;
+  top: 65vh;
+  left: 29.5vw;
+  background-color:#E2E9F4;
+}
+
+#button5 {
+  position: absolute;
+  top: 30vh;
+  left: 28.8vw;
+  background-color: #FADACD;
+}
+
+#button6 {
+  position: absolute;
+  top: 35vh;
+  left: 28.5vw;
+  background-color: #FADACD;
+}
+
+#button7 {
+  position: absolute;
+  top: 70vh;
+  left: 29vw;
+  background-color:#E2E9F4;
+}
+
+#button8 {
+  position: absolute;
+  top: 92vh;
+  left: 66vw;
+  background-color: #E5CEFC;
+}
+#buttonBlue{
+  position: absolute;
+  top: 20vh;
+  left: 66vw;
+  background-color: #D3FAF8;
+}
+#buttonPink{
+  position: absolute;
+  top: 25vh;
+  left: 66vw;
+  background-color: #FAE2F1;
+}
+#buttonPurple{
+  position: absolute;
+  top: 30vh;
+  left: 66vw;
+  background-color: #E5CEFC;
+}
+#buttonGreen{
+  position: absolute;
+  top: 35vh;
+  left: 66vw;
+  background-color: #BAFAC1;
+}
+
+#buttonBlack{
+  position: absolute;
+  top: 60vh;
+  left: 66vw;
+  background-color: #E2E9F4;
+}
+
+#buttonWhite{
+  position: absolute;
+  top: 65vh;
+  left: 66vw;
+  background-color: white;
+}
+
+#buttonBrown{
+  position: absolute;
+  top: 70vh;
+  left: 66vw;
+  background-color: #E0BA84;
+}
+
+button {
+  border-radius: 10px;
+  margin-right: 10px;
+}
+
+canvas {
+  position: absolute;
+  left: 50%;
+  top: 58%;
+  transform: translate(-50%, -50%);
+}
+
+.noPadding{
+	padding : 0px;
+}
+.height100{
+	height : 100px;
+}
+
+.height300{
+	height : 300px;
+}
+
+.height400{
+	height : 400px;
+}
+
+#mainArea{
+  background-color:none;
+  flex-grow: 1;
+    font-family: bear;
+    font-size: 20pt;
+    text-align: center;
+    padding-top: 0px;
+}
